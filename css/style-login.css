@@ -1,0 +1,49 @@
+
+.login{
+
+	background-image: url('https://laneurona.com/wp-content/themes/la_neurona_20/img/destacados-bg.png') !important; 
+	
+	background-position: center center !important; 
+	
+	background-size: cover !important;
+
+    
+    min-width: 0 !important;
+    
+    color: #444;
+    
+    font-family: Roboto Slab,"Helvetica Neue",sans-serif;
+    
+    font-size: 14px;
+    
+    line-height: 1.4em;
+
+}
+
+.login form input[type="submit"]{
+	background-color: #d0ad6b !important;
+}
+
+
+.login #login_error, .login .message, .login .success{
+	border-left: 4px solid #d0ad6b !important;
+}
+
+
+.button-primary {
+    background: #d0ad6b !important;
+    border-color: #d0ad6b #d0ad6b #d0ad6b !important;
+    box-shadow: 0 1px 0 #d0ad6b !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    text-shadow: 0 -1px 1px #d0ad6b, 1px 0 1px #d0ad6b, 0 1px 1px #d0ad6b, -1px 0 1px #d0ad6b !important;
+}
+
+#nav a, #backtoblog a{
+	color: #ffffff !important;
+}
+
+.login form input:focus{
+	border-color: #d0ad6b !important;
+    box-shadow: 0 0 2px rgba(208,173,107,.8) !important;
+}

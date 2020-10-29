@@ -1,0 +1,79 @@
+/*NEW SLIDER DESTACADOS*/
+
+
+@media (min-width: 527)and(max-width: 901px) {
+
+
+
+}
+
+@media (min-width: 902px)and(max-width: 1201px){
+
+
+
+}
+
+@media (max-width: 1201px)and(min-width: 1401px){
+
+} 
+
+
+@media (max-width: 1380px){
+	.new-slider-destacado-container{
+		margin-top: 83px !important;
+	}
+}
+
+
+
+/*eliminamos el enlace ver todo de los slider acciones*/
+/* en archivo custom.css */
+/* @media (max-width: 526px){
+	.subtitulo-accion .ver_todo{
+		display: none !important;
+	}	
+	.text-container .col-xs-6{padding: 2.5em 2em;}
+}
+
+
+@media (min-width: 527px)and(max-width: 4000px){
+	.text-container .col-xs-6{padding: 3vw 5vw;}
+} */
+
+
+
+	/*NEW SLIDER DESTACADOS*/
+
+	.fixed{position: relative !important;width: 100%; max-height: 850px;}
+
+	.text-container{color: #ffffff; position: absolute; top: 3.5% ;left: 3.5%}
+
+	.text-container h3{line-height: 1.5vw !important;}
+
+	.dest-button>div{margin-top: .7vw;padding-top: 2vw; padding-bottom: 1vw;}
+
+	.dest-button a{background-color: #ffffff; border-radius: 5px;}
+
+
+
+	.dest-button a:hover{background-color: #000000; border-radius: 5px; color: #ffffff !important;}
+
+	.patro-dest-box{padding-top: 2vw; padding-bottom: 1vw;}
+
+	.patro-dest-box span{ font-size: .9vw;}
+
+	.patro-dest-box img{margin-top: -.5vw;}
+	
+
+	.new-slider-destacado .text-container h1{font-size: 3.7vw !important;}
+
+	.new-slider-destacado .text-container h3{ font-size: 1.2vw !important; }		
+
+	.new-slider-destacado .dest-button{	font-size: 1vw;	width: 100%}
+
+	.new-slider-destacado .dest-button a{ padding: .7vw 1.5vw;	font-size: 1.1vw; border-radius: 12px}
+
+	.new-slider-destacado .patro-dest-box{margin-top: -.15vw !important;	margin-left: -1.5vw !important;	}
+
+	
+	/*FIN NEW SLIDER DESTACADOS*/

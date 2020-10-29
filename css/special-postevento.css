@@ -1,0 +1,118 @@
+	.header-left, .header-right{
+		background-color: #000000;
+	}
+
+	.vertical-align {
+	  display: flex;
+	  align-items: center;
+	  flex-direction: row;
+	}
+
+
+	/*parrafos de texto*/
+
+
+
+	.paragraph-row p, .bloque-texto-video p{
+		font-size: 1.2em;
+		color: #484848;
+	}	
+
+
+	.vertical-align {
+	  display: flex;
+	  align-items: center;
+	  flex-direction: row;
+	}
+	.img-row .col-md-4{
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+		padding-top: 0px !important;
+		padding-bottom: 0px !important;
+	}
+	.video-row .col-sm-12{
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+		padding-top: 0px !important;
+		padding-bottom: 0px !important;
+	}
+	.round-play-icon img{
+		position: absolute;
+		max-width: 75px;
+		max-height: 75px;
+		top: 42%;
+		left: 42%;
+		cursor:pointer;
+	}	
+
+	.single-video-row{
+		padding: 3.125em 0em;
+	}
+
+	.video-row .col-md-3{
+		position: relative;
+	}
+	.video-row .col-md-3>img{
+		width: 100%;
+		cursor: pointer;
+	}
+	.round-play-icon img:hover, .single-video a img:hover{
+		transform: scale(1.2);
+    	transition: all 0.8s ease 0s;
+	}
+	.testimonial-single h1{
+		color: #ffffff;
+		font-size: 39px ;
+		font-style: italic;
+		font-weight: lighter;
+	}
+	.testimonial-single img{
+		max-width: 100px;
+		padding-bottom: 3.125rem;
+		padding-top: 5rem;
+	}
+	.testimonial-single .container{padding: 22.5625rem 0em 15.125rem;}
+
+
+
+	.des-text-container, .testimoniales-group{
+		padding-top: 4.6875rem;
+		padding-bottom: 4.6875rem;
+	}
+
+	
+
+	.testimoniales-group img{
+		max-width: 100px;
+		margin-bottom: 0.875em;
+	}
+	.testimoniales-group h3 strong, .testimoniales-group h3 span{
+		margin-top: 1.25em;
+		font-size: 1.4375em;
+		color: #484848;
+	}
+	.testimoniales-group p{
+		font-size: 1.0625em;
+		color: #484848;
+	}
+	.testimoniales-group .text-center{
+		padding: .5em 2.7em; 
+	}
+
+
+
+
+
+
+	.single-video{position: relative;}
+	.single-video a img{
+		position: absolute;
+		max-width: 75px;
+		max-height: 75px;
+		top: 40%;
+		left: 45%;
+	}
+	.bloque-texto-video{padding-bottom: 4.6875em;padding-top: 4.6875em}
+	
+	.paragraph-row h4{font-size: 1.6875em !important;padding-bottom: .85em }
+

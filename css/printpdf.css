@@ -1,0 +1,12 @@
+.pf-author, 
+.pf-date, 
+.pf-title, 
+#botones-agenda, 
+#ponentes, 
+#laneurona, 
+.no-print, 
+.colabos-content,
+.patros-content,
+.fusion-countdown{
+	display: none !important;
+}
